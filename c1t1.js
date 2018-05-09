@@ -1,6 +1,5 @@
 //题目：给定一个字符串，判断其中是否有重复字母。
 process.stdin.setEncoding('utf8');
-
 process.stdin.on('readable', () => {
     const chunk = process.stdin.read();
     if (chunk !== null) {
